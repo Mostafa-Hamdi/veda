@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemap location (update with your actual domain)
+Sitemap: https://veda.za3bot.com/sitemap.xml
+
+# Block development/build files if needed
+Disallow: /static/js/
+Disallow: /static/css/
+Disallow: /*.map$
+
+# Allow common pages
+Allow: /
+Allow: /pricing
+Allow: /blog
+Allow: /about
+Allow: /services
