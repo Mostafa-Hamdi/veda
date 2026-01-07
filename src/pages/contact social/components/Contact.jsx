@@ -23,14 +23,14 @@ const Contact = () => {
           </p>
 
           <div className="mt-6 sm:mt-10 flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center lg:justify-start">
-            <a
+            {/* <a
               href={whatsapp}
               target="_blank"
               className="flex items-center justify-center bg-[#04aeb5] text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold w-full sm:w-auto shadow-xl hover:scale-105 transition"
             >
               <WhatsAppIcon />
               Chat on WhatsApp
-            </a>
+            </a> */}
 
             <a
               href={instagram}

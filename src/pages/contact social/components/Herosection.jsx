@@ -22,20 +22,20 @@ const Herosection = () => {
             online, and designed entirely around your lifestyle.
           </p>
           <div class="mt-6 sm:mt-10 flex flex-col sm:flex-row sm:flex-wrap gap-4 sm:gap-5 justify-center lg:justify-start">
-            <a
+            {/* <a
               href={whatsapp}
               target="_blank"
               class="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold bg-[#04aeb5] text-white shadow-xl hover:scale-105 transition w-full sm:w-auto"
             >
               <WhatsAppIcon />
               Chat on WhatsApp
-            </a>
+            </a> */}
             <a
               href={instagram}
               target="_blank"
               class="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold bg-[#1c3f3a] text-white hover:bg-[#04aeb5] transition w-full sm:w-auto"
             >
-              <Instagram />
+              <Instagram className="mr-2 sm:mr-3" />
               Instagram
             </a>
           </div>
